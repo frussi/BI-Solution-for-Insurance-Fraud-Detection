@@ -182,7 +182,7 @@ print(f'Test Score {accuracy_score(y_test_pred,y_test)}')
 
 # Plot Decision Tree
 tree.plot_tree(dtree, feature_names=features)
-plt.title("Decision Tree for Car Price")
+plt.title("Decision Tree for Fraud Detection")
 plt.show()
 
 # Prune Decision Tree with cost complexity pruning
@@ -230,7 +230,7 @@ print(f'Test Score {accuracy_score(y_pred,y_test)}')
 
 # Print pruned Decision Tree
 tree.plot_tree(dtree_, feature_names=features)
-plt.title("Pruned Decision Tree for Car Price")
+plt.title("Pruned Decision Tree for Fraud Detection")
 plt.show()
 
 # Print decision tree accuracy, metrics, and feature importance
